@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9dfd4bf3-a578-4481-90de-7de5c1dcb856" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/KG_marvel.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/cy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1mVYlFgv1OcYUZXztCycUkzfXry" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Workstation_Python" />
+  </component>
+  <component name="RunManager" selected="Python.app (1)">
+    <configuration name="app (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="KG_marvel" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/flask" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flask/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="KG_marvel" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.app (1)" />
+        <item itemvalue="Python.app" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9dfd4bf3-a578-4481-90de-7de5c1dcb856" name="Default Changelist" comment="" />
+      <created>1609580374638</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609580374638</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="531" y="235" key="FileChooserDialogImpl" timestamp="1609585487053">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="531" y="235" key="FileChooserDialogImpl/0.0.1500.960@0.0.1500.960" timestamp="1609585487053" />
+    <state width="1480" height="252" key="GridCell.Tab.0.bottom" timestamp="1609603743280">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state width="1480" height="252" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1609603743280" />
+    <state width="1480" height="252" key="GridCell.Tab.0.center" timestamp="1609603743280">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state width="1480" height="252" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1609603743280" />
+    <state width="1480" height="252" key="GridCell.Tab.0.left" timestamp="1609603743280">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state width="1480" height="252" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1609603743280" />
+    <state width="1480" height="252" key="GridCell.Tab.0.right" timestamp="1609603743280">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state width="1480" height="252" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1609603743280" />
+    <state width="727" height="313" key="GridCell.Tab.1.bottom" timestamp="1609583172227">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state width="727" height="313" key="GridCell.Tab.1.bottom/0.0.1500.960@0.0.1500.960" timestamp="1609583172227" />
+    <state width="727" height="313" key="GridCell.Tab.1.center" timestamp="1609583172227">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state width="727" height="313" key="GridCell.Tab.1.center/0.0.1500.960@0.0.1500.960" timestamp="1609583172227" />
+    <state width="727" height="313" key="GridCell.Tab.1.left" timestamp="1609583172227">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state width="727" height="313" key="GridCell.Tab.1.left/0.0.1500.960@0.0.1500.960" timestamp="1609583172227" />
+    <state width="727" height="313" key="GridCell.Tab.1.right" timestamp="1609583172227">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state width="727" height="313" key="GridCell.Tab.1.right/0.0.1500.960@0.0.1500.960" timestamp="1609583172227" />
+    <state x="767" y="214" width="672" height="678" key="search.everywhere.popup" timestamp="1609603311202">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="767" y="214" width="672" height="678" key="search.everywhere.popup/0.0.1500.960@0.0.1500.960" timestamp="1609603311202" />
+  </component>
+</project>

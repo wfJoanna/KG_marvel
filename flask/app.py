@@ -15,7 +15,9 @@ def buildNodes(nodeRecord):
 def buildEdges(relationRecord):
     data = {"source": str(relationRecord['r'].start_node['id']),
             "target": str(relationRecord['r'].end_node['id']),
-            "relationship": str(relationRecord['r']['relation'])}
+            "relationship": str(relationRecord['r']['relation']),
+            "start": str(relationRecord['r'].start_node['fullname']),
+            "end": str(relationRecord['r'].end_node['fullname'])            }
     return {"data": data}
 
 

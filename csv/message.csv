@@ -1,0 +1,183 @@
+aname,bname,status
+tonys,Tony Stark,human
+stever,Steve Rogers,human
+bruceb,Bruce Banner,human
+thor,Thor,asgardian
+blackw,Natasha Romanoff,human
+rhody,James Rhodes,human
+hawke,Clint Barton,human
+nickf,Nick Fury,human
+falcon,Sam Wilson,human
+vision,Vision,machine
+wandam,Wanda Maximoff,human
+pietrom,Pietro Maxiomoff,human
+ultronu,Ultimate Ultron,machine
+helenc,Helen Cho,human
+ultrons,Ultron Sentry,machine
+mariah,Maria Hill,human
+wolfgangv,Wolfgang von Strucker,human
+list,List,human
+peggyc,Peggy Carter,human
+heimdall,Heimdall,asgardian
+laurab,Laura Barton,human
+madameb,Madame B.,human
+ulyssesk,Ulysses Klaue,human
+pepperp,Pepper Potts,human
+happyh,Happy Hogun,human
+howardso,Howard Stark (Old),human
+marias,Maria Stark,human
+obadiahs,Obadiah Stane,human
+yinsen,Ho Yinsen,human
+raza,Raza,human
+abub,Abu Bakaar,human
+jarvis,Edwin Jarvis,human
+christinee,Christine Everhart,human
+philc,Phil Coulson,human
+whiplash,Ivan Vanko,human
+antonvo,Anton Vanko (Old),human
+justinh,Justin Hammer,human
+stern,Stern,human
+aldrichk,Aldrich Killian,human
+mayah,Maya Hansen,human
+trevors,Trevor Slattery,human
+erics,Eric Savin,human
+ellenb,Ellen Brandt,human
+jackt,Jack Taggart,human
+matthewe,Matthew Ellis,human
+harleyk,Harley Keener,human
+jacksonn,Jackson Norriss,human
+bettyr,Betty Ross,human
+thunderboltr,Thaddeus Ross,human
+emilb,Emil Blonsky,human
+samuels,Samuel Stern,human
+leonards,Leonard Samson,human
+loki,Loki,frost giant
+odin,Odin,asgardian
+frigga,Frigga,asgardian
+sif,Sif,asgardian
+volstagg,Volstagg,asgardian
+hogun,Hogun,vanir
+fandral,Fandral,asgardian
+janef,Jane Foster,human
+eriks,Erik Selvig,human
+darcyl,Darcy Lewis,human
+laufey,Laufey,frost giant
+destroyer,The Destroyer,asgardian
+jaspers,Jasper Sitwell,human
+malekith,Malekith,dark elf
+algrim,Algrim,dark elf
+darkelf,Dark Elf Soldier,dark elf
+asgardian,Asgardian Soldier,asgardian
+bor,Bor,asgardian
+hela,Hela,asgardian
+valk,Valkyrie,asgardian
+skurge,Skurge,asgardian
+korg,Korg,kronan
+miek,Miek,sakaaran
+grandm,The Grandmaster,unknown
+topaz,Topaz,sakaaran
+surtur,Surtur,fire demon
+fenris,Fenris Wolf,asgardian
+bucky,Bucky Barnes,human
+dumdum,Dum Dum Dugan,human
+gabej,Gabe Jones,human
+jimm,Jim Morita,human
+jamesm,James Montgomery Falsworth,human
+chesterp,Chester Phillips,human
+abrahame,Abraham Erskine,human
+johanns,Johann Schmidt,human
+arnimz,Arnim Zola,human
+alexanderp,Alexander Pierce,human
+brockr,Brock Rumlow,human
+jackr,Jack Rollins,human
+sharonc,Sharon Carter,human
+georgesb,Georges Batroc,human
+tchalla,T'Challa,human
+tchaka,T'Chaka (Old),human
+everettr,Everett Ross,human
+helmutz,Helmut Zemo,human
+chitauri,Chitauri Footsoldier,chitauri
+other,The Other,unknown
+ironl,Iron Legion,machine
+thanos,Thanos,titan
+peterq,Peter Quill,human
+gamora,Gamora,zehoberei
+drax,Drax,unknown
+rocket,Rocket,halfworlder
+groota,Groot (Adult),flora colossus
+yonduu,Yondu Udonta,centaurian
+nebula,Nebula,luphomoid
+ronan,Ronan,kree
+korath,Korath,kree
+collector,Taneleer Tivan,unknown
+carina,Carina,krylorian
+rhomannd,Rhomann Dey,xandarian
+garthans,Garthan Saal,xandarian
+iranir,Irani Rael,xandarian
+novac,Nova Corp Soldier,xandarian
+howardd,Howard The Duck,duckworldian
+meredithq,Meredith Quill,human
+kraglino,Kraglin Obfonteri,xanderian
+cosmo,Cosmo The Spacedog,dog
+mantis,Mantis,unknown
+ego,Ego,celestial
+ayesha,Ayesha,sovereign
+taserf,Taserface,stark
+stakaro,Stakar Ogord,unknown
+martinex,Martinex,pluvian
+krugarr,Krugarr,lem
+charlie,Charlie-27,jovian
+aletao,Aleta Ogord,arcturan
+mainf,Mainframe,machine
+scottl,Scott Lang,human
+hankp,Hank Pym,human
+hopev,Hope Van Dyne,human
+darrenc,Darren Cross,human
+maggiel,Maggie Lang,human
+cassiel,Cassie Lang,human
+luis,Luis,human
+kurt,Kurt,human
+dave,Dave,human
+stephens,Stephen Strange,human
+karlm,Karl Mordo,human
+anciento,Ancient One,human
+kaecilius,Kaecilius,human
+christinep,Christine Palmer,human
+wong,Wong,human
+jonathanp,Jonathan Pangborn,human
+hamir,Hamir,human
+dormammu,Dormammu,faltine
+peterp,Peter Parker,human
+mayp,May Parker,human
+nedl,Ned Leeds,human
+michellej,Michelle Jones,human
+lizt,Liz Toomes,human
+adriant,Adrian Toomes,human
+eugenet,Flash Thompson,human
+aarond,Aaron Davis,human
+jacksonb,Jackson Brice,human
+hermans,Herman Schultz,human
+phineasm,Phineas Mason,human
+macg,Macdonald 'Mac' Gargan,human
+annem,Anne Marie Hoag,human
+principalm,Principal Morita,human
+erikk,Erik 'Killmonger' Stevens,human
+nakia,Nakia,human
+okoye,Okoye,human
+shuri,Shuri,human
+ramonda,Ramonda,human
+wkabi,W'Kabi,human
+mbaku,M'Baku,human
+zuri,Zuri,human
+njobu,N'Jobu,human
+miningt,Mining Tribe Elder,human
+bordert,Border Tribe Elder,human
+rivert,River Tribe Elder,human
+merchantt,Merchant Tribe Elder,human
+midnightp,Proxima Midnight,unknown
+corviusg,Corvius Glaive,unknown
+ebonym,The Ebony Maw,unknown
+obsidianc,Obsidian Cull,unknown
+outrider,Outriders,unknown
+bettyb,Betty Brant,human
+stanlee,Stan Lee,human

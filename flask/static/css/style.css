@@ -13,3 +13,9 @@
 .content.show{
     display:block;
 }
+
+#details{
+    width: 350px;
+    height: 350px;
+    background-color: #f2f2f2;
+}

@@ -240,5 +240,85 @@ $(function(){
       },
       elements: result.elements8
     });
+
+    cy1.on('tap', 'node', function(evt){
+        var data=evt.target.data();
+        document.getElementById('details').innerHTML='人物id：'+data.id+'<br>人物名字：'+data.fullname+'<br>人物人种：'+data.status;
+    });
+    cy1.on('tap', 'edge', function(evt){
+        var data=evt.target.data();
+        console.log(data);
+        document.getElementById('details').innerHTML='关系起点：'+data.start+'<br>关系终点：'+data.end+'<br>关系类型：'+data.relationship;
+    });
+
+    cy2.on('tap', 'node', function(evt){
+        var data=evt.target.data();
+        document.getElementById('details').innerHTML='人物id：'+data.id+'<br>人物名字：'+data.fullname+'<br>人物人种：'+data.status;
+    });
+    cy2.on('tap', 'edge', function(evt){
+        var data=evt.target.data();
+        console.log(data);
+        document.getElementById('details').innerHTML='关系起点：'+data.start+'<br>关系终点：'+data.end+'<br>关系类型：'+data.relationship;
+    });
+
+    cy3.on('tap', 'node', function(evt){
+        var data=evt.target.data();
+        document.getElementById('details').innerHTML='人物id：'+data.id+'<br>人物名字：'+data.fullname+'<br>人物人种：'+data.status;
+    });
+    cy3.on('tap', 'edge', function(evt){
+        var data=evt.target.data();
+        console.log(data);
+        document.getElementById('details').innerHTML='关系起点：'+data.start+'<br>关系终点：'+data.end+'<br>关系类型：'+data.relationship;
+    });
+
+    cy4.on('tap', 'node', function(evt){
+        var data=evt.target.data();
+        document.getElementById('details').innerHTML='人物id：'+data.id+'<br>人物名字：'+data.fullname+'<br>人物人种：'+data.status;
+    });
+    cy4.on('tap', 'edge', function(evt){
+        var data=evt.target.data();
+        console.log(data);
+        document.getElementById('details').innerHTML='关系起点：'+data.start+'<br>关系终点：'+data.end+'<br>关系类型：'+data.relationship;
+    });
+
+    cy5.on('tap', 'node', function(evt){
+        var data=evt.target.data();
+        document.getElementById('details').innerHTML='人物id：'+data.id+'<br>人物名字：'+data.fullname+'<br>人物人种：'+data.status;
+    });
+    cy5.on('tap', 'edge', function(evt){
+        var data=evt.target.data();
+        console.log(data);
+        document.getElementById('details').innerHTML='关系起点：'+data.start+'<br>关系终点：'+data.end+'<br>关系类型：'+data.relationship;
+    });
+
+    cy6.on('tap', 'node', function(evt){
+        var data=evt.target.data();
+        document.getElementById('details').innerHTML='人物id：'+data.id+'<br>人物名字：'+data.fullname+'<br>人物人种：'+data.status;
+    });
+    cy6.on('tap', 'edge', function(evt){
+        var data=evt.target.data();
+        console.log(data);
+        document.getElementById('details').innerHTML='关系起点：'+data.start+'<br>关系终点：'+data.end+'<br>关系类型：'+data.relationship;
+    });
+
+    cy7.on('tap', 'node', function(evt){
+        var data=evt.target.data();
+        document.getElementById('details').innerHTML='人物id：'+data.id+'<br>人物名字：'+data.fullname+'<br>人物人种：'+data.status;
+    });
+    cy7.on('tap', 'edge', function(evt){
+        var data=evt.target.data();
+        console.log(data);
+        document.getElementById('details').innerHTML='关系起点：'+data.start+'<br>关系终点：'+data.end+'<br>关系类型：'+data.relationship;
+    });
+
+    cy8.on('tap', 'node', function(evt){
+        var data=evt.target.data();
+        document.getElementById('details').innerHTML='人物id：'+data.id+'<br>人物名字：'+data.fullname+'<br>人物人种：'+data.status;
+    });
+    cy8.on('tap', 'edge', function(evt){
+        var data=evt.target.data();
+        console.log(data);
+        document.getElementById('details').innerHTML='关系起点：'+data.start+'<br>关系终点：'+data.end+'<br>关系类型：'+data.relationship;
+    });
   }, 'json');
 });
