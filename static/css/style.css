@@ -1,5 +1,15 @@
-#cy {
-  width: 500px;
-  height: 500px;
-  background-color: #f2f2f2;
+.content{
+    width: 500px;
+    height: 500px;
+    background-color: #f2f2f2;
+    display: none;
+}
+.btn.active{
+    background-color: pink;
+}
+.btn{
+    width: 80px;
+}
+.content.show{
+    display:block;
 }

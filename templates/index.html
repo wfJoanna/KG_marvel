@@ -6,22 +6,37 @@
     <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.16.3/cytoscape.min.js"></script>
     <script src="/static/js/cy.js"></script>
-    <script src="/static/js/button.js"></script>
 </head>
 <body>
 <h1>漫威人物知识图谱系统</h1>
-<button>human</button>
-<button>asgardian</button>
-<button>others</button>
-<br>
-<button>friend</button>
-<button>enemy</button>
-<button>love</button>
-<button>work</button>
-<button>family</button>
-<button>love</button>
+<button class="btn active">human</button>
+<button class="btn">asgardian</button>
+<!--<button class="btn">others</button>-->
+<!--<br>-->
+<!--<button class="btn">friend</button>-->
+<!--<button class="btn">enemy</button>-->
+<!--<button class="btn">love</button>-->
+<!--<button class="btn">work</button>-->
+<!--<button class="btn">family</button>-->
+<!--<button class="btn">love</button>-->
 
-
-<div id="cy"></div>
+<div class="content show" id="human"></div>
+<div class="content" id="asg"></div>
 </body>
+<script>
+    var btns = document.getElementsByClassName("btn");
+    var contents = document.getElementsByClassName("content");
+
+    for(let i=0;i<btns.length;i++){
+        btns[i].index = i;
+        btns[i].onclick = function(){
+            for(let j=0;j<btns.length;j++){
+                btns[j].className = btns[j].className.replace(' active', '').trim();
+                contents[j].className = contents[j].className.replace(' show', '').trim();
+            }
+            this.className = this.className + ' active';
+            contents[this.index].className = contents[this.index].className + ' show';
+        };
+    }
+</script>
 </html>

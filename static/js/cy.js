@@ -49,8 +49,8 @@ $(function(){
             }
     ];
 
-    var cy = cytoscape({
-      container: document.getElementById('cy'),
+    var cy1 = cytoscape({
+      container: document.getElementById('human'),
       style: style,
       layout: {
         name: 'cose',
@@ -70,7 +70,31 @@ $(function(){
         coolingFactor: 0.95,
         minTemp: 1.0
       },
-      elements: result.elements
+      elements: result.elements1
+    });
+
+    var cy2 = cytoscape({
+      container: document.getElementById('asg'),
+      style: style,
+      layout: {
+        name: 'cose',
+        idealEdgeLength: 100,
+        nodeOverlap: 20,
+        refresh: 20,
+        fit: true,
+        padding: 30,
+        randomize: false,
+        componentSpacing: 100,
+        nodeRepulsion: 400000,
+        edgeElasticity: 100,
+        nestingFactor: 5,
+        gravity: 80,
+        numIter: 1000,
+        initialTemp: 200,
+        coolingFactor: 0.95,
+        minTemp: 1.0
+      },
+      elements: result.elements2
     });
   }, 'json');
 });

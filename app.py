@@ -26,11 +26,16 @@ def index():
 
 @app.route('/graph')
 def get_graph():
-    nodes = list(map(buildNodes, graph.run('match (n:people) where n.status="human" return n').data()))
-    edges = list(map(buildEdges, graph.run(
+    human_nodes = list(map(buildNodes, graph.run('match (n:people) where n.status="human" return n').data()))
+    human_edges = list(map(buildEdges, graph.run(
         'MATCH (n1:people)-[r]->(n2:people) where n1.status="human" AND n2.status="human" RETURN r').data()))
+    
+    asg_nodes = list(map(buildNodes, graph.run('match (n:people) where n.status="asgardian" return n').data()))
+    asg_edges = list(map(buildEdges, graph.run(
+        'MATCH (n1:people)-[r]->(n2:people) where n1.status="asgardian" AND n2.status="asgardian" RETURN r').data()))
 
-    return jsonify(elements={"nodes": nodes, "edges": edges})
+    return jsonify(elements1={"nodes": human_nodes, "edges": human_edges},
+                   elements2={"nodes": asg_nodes, "edges": asg_edges})
 
 
 if __name__ == '__main__':
