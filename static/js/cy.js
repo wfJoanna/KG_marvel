@@ -50,7 +50,7 @@ $(function(){
     ];
 
     var cy1 = cytoscape({
-      container: document.getElementById('human'),
+      container: document.getElementById('all'),
       style: style,
       layout: {
         name: 'cose',
@@ -74,7 +74,7 @@ $(function(){
     });
 
     var cy2 = cytoscape({
-      container: document.getElementById('asg'),
+      container: document.getElementById('human'),
       style: style,
       layout: {
         name: 'cose',
@@ -95,6 +95,150 @@ $(function(){
         minTemp: 1.0
       },
       elements: result.elements2
+    });
+
+    var cy3 = cytoscape({
+      container: document.getElementById('asg'),
+      style: style,
+      layout: {
+        name: 'cose',
+        idealEdgeLength: 100,
+        nodeOverlap: 20,
+        refresh: 20,
+        fit: true,
+        padding: 30,
+        randomize: false,
+        componentSpacing: 100,
+        nodeRepulsion: 400000,
+        edgeElasticity: 100,
+        nestingFactor: 5,
+        gravity: 80,
+        numIter: 1000,
+        initialTemp: 200,
+        coolingFactor: 0.95,
+        minTemp: 1.0
+      },
+      elements: result.elements3
+    });
+
+    var cy4 = cytoscape({
+      container: document.getElementById('friend'),
+      style: style,
+      layout: {
+        name: 'cose',
+        idealEdgeLength: 100,
+        nodeOverlap: 20,
+        refresh: 20,
+        fit: true,
+        padding: 30,
+        randomize: false,
+        componentSpacing: 100,
+        nodeRepulsion: 400000,
+        edgeElasticity: 100,
+        nestingFactor: 5,
+        gravity: 80,
+        numIter: 1000,
+        initialTemp: 200,
+        coolingFactor: 0.95,
+        minTemp: 1.0
+      },
+      elements: result.elements4
+    });
+
+    var cy5 = cytoscape({
+      container: document.getElementById('enemy'),
+      style: style,
+      layout: {
+        name: 'cose',
+        idealEdgeLength: 100,
+        nodeOverlap: 20,
+        refresh: 20,
+        fit: true,
+        padding: 30,
+        randomize: false,
+        componentSpacing: 100,
+        nodeRepulsion: 400000,
+        edgeElasticity: 100,
+        nestingFactor: 5,
+        gravity: 80,
+        numIter: 1000,
+        initialTemp: 200,
+        coolingFactor: 0.95,
+        minTemp: 1.0
+      },
+      elements: result.elements5
+    });
+
+    var cy6 = cytoscape({
+      container: document.getElementById('love'),
+      style: style,
+      layout: {
+        name: 'cose',
+        idealEdgeLength: 100,
+        nodeOverlap: 20,
+        refresh: 20,
+        fit: true,
+        padding: 30,
+        randomize: false,
+        componentSpacing: 100,
+        nodeRepulsion: 400000,
+        edgeElasticity: 100,
+        nestingFactor: 5,
+        gravity: 80,
+        numIter: 1000,
+        initialTemp: 200,
+        coolingFactor: 0.95,
+        minTemp: 1.0
+      },
+      elements: result.elements6
+    });
+
+    var cy7 = cytoscape({
+      container: document.getElementById('family'),
+      style: style,
+      layout: {
+        name: 'cose',
+        idealEdgeLength: 100,
+        nodeOverlap: 20,
+        refresh: 20,
+        fit: true,
+        padding: 30,
+        randomize: false,
+        componentSpacing: 100,
+        nodeRepulsion: 400000,
+        edgeElasticity: 100,
+        nestingFactor: 5,
+        gravity: 80,
+        numIter: 1000,
+        initialTemp: 200,
+        coolingFactor: 0.95,
+        minTemp: 1.0
+      },
+      elements: result.elements7
+    });
+
+    var cy8 = cytoscape({
+      container: document.getElementById('work'),
+      style: style,
+      layout: {
+        name: 'cose',
+        idealEdgeLength: 100,
+        nodeOverlap: 20,
+        refresh: 20,
+        fit: true,
+        padding: 30,
+        randomize: false,
+        componentSpacing: 100,
+        nodeRepulsion: 400000,
+        edgeElasticity: 100,
+        nestingFactor: 5,
+        gravity: 80,
+        numIter: 1000,
+        initialTemp: 200,
+        coolingFactor: 0.95,
+        minTemp: 1.0
+      },
+      elements: result.elements8
     });
   }, 'json');
 });
